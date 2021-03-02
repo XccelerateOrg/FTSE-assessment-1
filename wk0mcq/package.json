@@ -1,0 +1,19 @@
+{
+  "name": "wk0mcq",
+  "version": "1.0.0",
+  "description": "At this stage in the course we have been looking at HTML CSS and JavaScript in order to develop some interesting aboutMe websites. You have also been exposed to the command line interface and how we can interact with our computer from Bash on Ubuntu on Windows OR the Terminal.",
+  "main": "mcq.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jest": "^26.6.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Xccelerate dev@xccelerate.co",
+  "license": "ISC"
+}
