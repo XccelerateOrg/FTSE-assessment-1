@@ -8,15 +8,17 @@ test("Data types", () => {
   const values = [
     42,
     "JavaScript",
-    new Date(),
+    new Array(),
     "7" + "8",
     "7" + 8,
     +"37",
     !true,
-    !!37,
-    NaN,
-    myValue,
+    false,
+    Math.pow(2, 2),
+    "myValue",
   ];
 
-  expect(values.map((value) => typeof value)).toEqual(studentAnswers);
+  expect(values.map((value) => typeof value)).toEqual(
+    studentAnswers
+  );
 });

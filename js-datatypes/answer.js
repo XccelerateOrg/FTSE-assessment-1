@@ -15,19 +15,20 @@ function submission() {
   const values = [
     42,
     "JavaScript",
-    new Date(),
+    new Array(),
     "7" + "8",
     "7" + 8,
     +"37",
     !true,
-    !!37,
-    NaN,
-    myValue,
+    false,
+    Math.pow(2, 2),
+    "myValue",
   ];
 
   const answers = [
     // put your answers here in strings, separated by comma
     // the first answer is provided as an example
+
     "number",
     // YOUR CODE HERE
   ];

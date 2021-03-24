@@ -21,7 +21,6 @@
  * @return {boolean} whether the triangle is isosceles
  */
 // YOUR CODE HERE
-
 /**
  * @description isScalene() should take 3 numbers as the input,
  * each input represents a side of the triangle
