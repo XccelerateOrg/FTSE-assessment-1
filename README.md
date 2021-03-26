@@ -8,13 +8,18 @@ When you are asked to write a function, the specification of each function will 
 
 - `git clone [url-of-your-repo]` to your local machine
 - `cd [name-of-your-repo]`
+- git branch nameDate
+- git checkout nameDate
 - Open the repo with VSCode
 - Find question specific instructions in each question folder
 - cd into that folder (e.g., cd functions)
 - Install the needed packages: npm install
 - Test the folder: npm test (the only folder that doesn't have a test is the bonus folder)
-- Make changes to `answer.js`(default, if not specified by the question) or files in `answers/` folder in each question
-- Commit changes to `master` branch. Other branches won't be graded
+- After completing, submit branch online
+- git add .
+- git commit -m "finished"
+- git push --set-upstream origin nameDate
+- Go to github, and create pull request
 
 ## Submitting Solutions
 
