@@ -27,7 +27,7 @@ describe("Triangle", function () {
   test("isRight()", () => {
     expect(isRight(3, 3, 3)).toBe(false);
     expect(isRight(2, 3, 3)).toBe(false);
-    expect(isRight(1, 2, 3)).toBe(true);
+    expect(isRight(1, 2, 3)).toBe(false);
     expect(isRight(5, 4, 3)).toBe(true);
   });
 });

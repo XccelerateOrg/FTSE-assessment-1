@@ -37,13 +37,28 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: To list out all the keys needed for a user
  ***********************************************/
 // CODE HERE
+let user = {
+  name: "James",
+  age: 23,
+  occupation: "student",
+}
+
+console.log(Object.keys(user))
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: List out all user info 
  ***********************************************/
 // CODE HERE
+
+let user = {
+  name: "James",
+  age: 23,
+  occupation: "student",
+}
+
+console.log(Object.values(user))

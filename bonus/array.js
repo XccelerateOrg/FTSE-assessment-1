@@ -22,48 +22,70 @@ console.log(teachers.includes(sam));
 /**********************************************
  * array.slice()
  * ==================================
- * When you would use it:
+ * When you would use it: Returns a copy of an array into a new array
  ***********************************************/
 // CODE HERE
+let blogArticle = ["Jan Blog", "Feb Blog", "March Blog"]
+let marchBlog = blogArticle.slice(2);
 
 /**********************************************
  * array.splice()
  * ==================================
- * When you would use it:
+ * When you would use it: adding elements to specific list inside array
  ***********************************************/
 // CODE HERE
+let shopppingList = ["Apples", "Carrots", "Oranges"];
+shopppingList.splice(1, 0, "Lemons")
 
 /**********************************************
  * array.indexOf()
  * ==================================
- * When you would use it:
+ * When you would use it: find if item is in list
  ***********************************************/
 // CODE HERE
+let inventory = ["Gem", "Hat", "Bottle"]
 
+function checkItem(item) {
+    if (inventory.indexOf(item) === -1) {
+        return "Doesnt Exist"
+    } else {
+        return "Inside Inventory"
+    }
+}
+checkItem("Gem")
 /**********************************************
  * array.sort()
  * ==================================
- * When you would use it:
+ * When you would use it: sorting names in alphabetical order
  ***********************************************/
-// CODE HERE
+// CODE HERE 
+let names = ["Zion", "Jason", "Mary", "Ben"];
+names.sort()
 
 /**********************************************
  * array.concat()
  * ==================================
- * When you would use it:
+ * When you would use it: add two groups of people into one array
  ***********************************************/
 // CODE HERE
+let teamOne = ["John", "Susan", "Mary"];
+let teamTwo = ["Kyle", "Lisa"]
+let combine = teamOne.concat(teamTwo);
 
 /**********************************************
  * array.unshift()
  * ==================================
- * When you would use it:
+ * When you would use it: when you have a queue of people and you want to add someone to the beginning of the queue
  ***********************************************/
 // CODE HERE
+let queue = ["John", "Susan", "Mary"]
+queue.unshift("Justin");
 
 /**********************************************
  * array.shift()
  * ==================================
- * When you would use it:
+ * When you would use it: As people go enter the shop, you want to remove the people in the beginnning of array first
  ***********************************************/
 // CODE HERE
+let queue = ["John", "Susan", "Mary"]
+queue.shift();

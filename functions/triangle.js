@@ -9,6 +9,13 @@
  * @return {boolean} whether the triangle is equilateral
  */
 // YOUR CODE HERE
+function isEquilateral(a, b, c) {
+  if ((a === b) && (b === c)) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 /**
  * @description isIsosceles() should take 3 numbers as the input,
@@ -21,6 +28,13 @@
  * @return {boolean} whether the triangle is isosceles
  */
 // YOUR CODE HERE
+function isIsosceles(a, b, c) {
+  if (a === b || a === c || b === c) {
+    return true;
+  } else {
+    return false;
+  }
+}
 /**
  * @description isScalene() should take 3 numbers as the input,
  * each input represents a side of the triangle
@@ -32,7 +46,13 @@
  * @return {boolean} whether the triangle is scalene
  */
 // YOUR CODE HERE
-
+function isScalene(a, b, c) {
+  if (a != b && b != c && c != a) {
+    return true;
+  } else {
+    return false;
+  }
+}
 /**
  * @description isRight() should take 3 numbers as the input,
  * each input represents a side of the triangle
@@ -44,6 +64,13 @@
  * @return {boolean} whether the triangle is right
  */
 // YOUR CODE HERE
+function isRight(a, b, c) {
+  if ((Math.pow(a, 2) + Math.pow(b, 2)) == Math.pow(c, 2) || (Math.pow(a, 2) + Math.pow(c, 2)) == Math.pow(b, 2) || (Math.pow(b, 2) + Math.pow(c, 2)) == Math.pow(a, 2)) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 module.exports = {
   isEquilateral,
