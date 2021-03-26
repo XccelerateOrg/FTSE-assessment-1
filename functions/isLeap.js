@@ -7,6 +7,14 @@
  */
 // YOUR CODE HERE
 
+function isDivisibleBy(n,k) {
+    if (n % k == 0) {
+      return true;
+    }
+  }
+
+// console.log(isDivisibleBy(9,3));
+
 /**
  * @description isLeap() should take a number, year, as the input,
  * and return true if that year is a leap year, and false otherwise.
@@ -20,7 +28,7 @@ input: 1900
 output: false 
 
 input: 2000
-output: false
+output: true
 
 input: 2020
 output: true
@@ -30,5 +38,25 @@ output: true
  */
 
 // YOUR CODE HERE
+function isLeap(n){
+    if (isDivisibleBy(n,4) == true && isDivisibleBy(n,100) == true) {
+        if (isDivisibleBy(n,400) == true) {
+            return true;
+            // return n + " is a end-of-century year that is a leap year";
+        } else {
+            return false;
+            // return n + " is a end-of-century year that is not a leap year";
+        }
+    } else if (isDivisibleBy(n,4) == true) {
+        return true;
+        // return n + " is a non-end-of-century year that is a leap year";
+    } else {
+        return false;
+        // return n + " is a non-end-of-century year that is not a leap year";
+    }
+}
+
+
+console.log(isLeap(2000));
 
 module.exports = isLeap;

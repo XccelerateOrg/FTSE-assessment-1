@@ -37,13 +37,15 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: returns an array of a given object's property names,
  ***********************************************/
 // CODE HERE
+console.log(Object.keys(tst));
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it:returns an array of a given object's values,
  ***********************************************/
 // CODE HERE
+console.log(Object.values(tst));

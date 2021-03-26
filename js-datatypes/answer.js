@@ -26,11 +26,20 @@ function submission() {
   ];
 
   const answers = [
+
     // put your answers here in strings, separated by comma
     // the first answer is provided as an example
-      "number",
-      
+    "number",      
     // YOUR CODE HERE
+    "string",
+    "object",
+    "string",
+    "string",
+    "number",
+    "boolean",
+    "boolean",
+    "number",
+    "string",
   ];
 
   return answers;
