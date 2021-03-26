@@ -16,6 +16,14 @@
  * unless the year is also evenly divisible by 400
  * You could use isDivisibleBy() as a helper function 
 
+input: 1900
+output: false 
+
+input: 2000
+output: false
+
+input: 2020
+output: true
 
  * @param {number} year
  * @return {boolean} whether the year is leap

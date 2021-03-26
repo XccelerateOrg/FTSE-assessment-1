@@ -21,4 +21,4 @@ When you are asked to write a function, the specification of each function will 
 
 - In `answer.js` file, you may look for `// YOUR CODE HERE` to find where you should put your answer
 - **DON'T** make any change to the rest of the question folder.
-- You can push as many times as your want before the deadline. The result of your last push will be your final grade*
+- You can push as many times as your want before the deadline. The result of your last push will be your final grade\*
