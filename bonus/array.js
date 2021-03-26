@@ -23,6 +23,7 @@ console.log(teachers.includes(sam));
  * array.slice()
  * ==================================
  * When you would use it:
+ * returns the selected elements in an array, as a new array object. and selects the elements starting at the given start argument, and ends at, but does not include, the given end argument.
  ***********************************************/
 // CODE HERE
 let Resident_teachers = ["teacherA","teacherB","sam","bibek","lesley"];
@@ -35,6 +36,7 @@ console.log(real_Resident_teachers);
  * array.splice()
  * ==================================
  * When you would use it:
+ * adds/removes items to/from an array, and returns the removed item(s).
  ***********************************************/
 // CODE HERE
 let Resident_teachers_a = ["sam","bibek","lesley"];
@@ -54,20 +56,21 @@ console.log(lady);
  * array.indexOf()
  * ==================================
  * When you would use it:
+ * searches the array for the specified item, and returns its position.
  ***********************************************/
 // CODE HERE
 const Resident_teachers_b = ["sam","bibek","lesley"];
 
 console.log(Resident_teachers_b.indexOf('sam'));
+console.log(Resident_teachers_b.indexOf('bibek'));
 console.log(Resident_teachers_b.indexOf('a'));
-
-
 
 
 /**********************************************
  * array.sort()
  * ==================================
  * When you would use it:
+ * reverses the elements in an array.
  ***********************************************/
 // CODE HERE
 const Resident_teachers_c = ["sam","bibek","lesley"];
@@ -80,6 +83,7 @@ console.log(array1.sort());
  * array.concat()
  * ==================================
  * When you would use it:
+ * is used to join two or more arrays.
  ***********************************************/
 // CODE HERE
 const Resident_teachers_d = ["sam","bibek","lesley"];
@@ -93,6 +97,7 @@ console.log(All_teachers)
  * array.unshift()
  * ==================================
  * When you would use it:
+ * adds new items to the beginning of an array, and returns the new length.
  ***********************************************/
 // CODE HERE
 const Resident_teachers_e = ["sam","bibek","lesley"];
@@ -106,6 +111,7 @@ console.log(Resident_teachers_e)
  * array.shift()
  * ==================================
  * When you would use it:
+ * removes the first item of an array.
  ***********************************************/
 // CODE HERE
 let Resident_teachers_f = ["teacherA","teacherB","sam","bibek","lesley"];

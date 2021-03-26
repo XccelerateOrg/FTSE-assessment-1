@@ -37,7 +37,7 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it:to see if the object includes a specific key
  ***********************************************/
 // CODE HERE
 let food = {
@@ -63,7 +63,7 @@ console.log(allfood);
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it:to see if the object includes a specific value
  ***********************************************/
 // CODE HERE
 let food_a = {

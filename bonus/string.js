@@ -23,6 +23,7 @@ console.log(isItHongKong);
  * string.indexOf()
  * ==================================
  * When you would use it:
+ * returns the position of the first occurrence of a specified value in a string.
  ***********************************************/
 // CODE HERE
 let Fine = "I'm fine today";
@@ -37,6 +38,7 @@ console.log(Fine.indexOf(searchFine,10))
  * string.toUpperCase()
  * ==================================
  * When you would use it:
+ * converts a string to uppercase letters.
  ***********************************************/
 // CODE HERE
 let Abbreviated_name = "kfc";
@@ -48,6 +50,7 @@ console.log(kfc_Abbreviated_name)
  * parseInt(string)
  * ==================================
  * When you would use it:
+ * parses a string and returns an integer.
  ***********************************************/
 // CODE HERE
 console.log(parseInt("How are you"))
@@ -63,6 +66,7 @@ console.log(parseInt("10",8))
  * number.toString()
  * ==================================
  * When you would use it:
+ *  converts a number to a string.
  ***********************************************/
 // CODE HERE
 let count = 103
@@ -83,6 +87,7 @@ console.log((-0xff).toString(8)) // displays '-377'
  * string.charAt(index)
  * ==================================
  * When you would use it:
+ * returns the character at the specified index in a string.
  ***********************************************/
 // CODE HERE
 const sentence = "The String object's charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.";
@@ -97,6 +102,7 @@ console.log("The character at index 0  is " + sentence.charAt(1000))
  * string.split("")
  * ==================================
  * When you would use it:
+ * is used to split a string into an array of substrings, and returns the new array.
  ***********************************************/
 // CODE HERE
 const sentence_c = "The String object's charAt() method returns a new string consisting of the single UTF-16 code unit located at the specified offset into the string.";
@@ -114,6 +120,7 @@ console.log(sentence_c.split(" the ",2))
  * string.trim()
  * ==================================
  * When you would use it:
+ * removes whitespace from both sides of a string.
  ***********************************************/
 // CODE HERE
 const final_sentence = "I am reday to finish it!      "
