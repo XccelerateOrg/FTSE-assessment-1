@@ -22,48 +22,73 @@ console.log(isItHongKong);
 /**********************************************
  * string.indexOf()
  * ==================================
- * When you would use it:
+ * When you would use it: to find out the position of a letter in alphabet.
  ***********************************************/
 // CODE HERE
+let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+let vposition = alphabet.indexOf("v")+1;
+console.log(vposition);
 
 /**********************************************
  * string.toUpperCase()
  * ==================================
- * When you would use it:
+ * When you would use it: change all letters to uppercase
  ***********************************************/
 // CODE HERE
+
+let word = "Word!";
+let upWord = word.toUpperCase();
+console.log(upWord);
 
 /**********************************************
  * parseInt(string)
  * ==================================
- * When you would use it:
+ * When you would use it: to convert string obtained from form submission to integer
  ***********************************************/
 // CODE HERE
+
+let age = "18";
+console.log(parseInt(age));
 
 /**********************************************
  * number.toString()
  * ==================================
- * When you would use it:
+ * When you would use it: change the number to string type
  ***********************************************/
 // CODE HERE
+
+let years=3;
+let yearsInString= years.toString();
+console.log(yearsInString);
 
 /**********************************************
  * string.charAt(index)
  * ==================================
- * When you would use it:
+ * When you would use it:return the character at specified index of a string
  ***********************************************/
 // CODE HERE
+
+let  oops ="I cannot think of any examples anymore."
+let charOfZeroIndex = oops.charAt(0);
+console.log(charOfZeroIndex);
+
 
 /**********************************************
  * string.split("")
  * ==================================
- * When you would use it:
+ * When you would use it: split the sentence into an array of words.
  ***********************************************/
 // CODE HERE
 
+let fingercross ="This is the last question";
+let arrayFingercross = fingercross.split(" ");
+console.log(arrayFingercross);
 /**********************************************
  * string.trim()
  * ==================================
- * When you would use it:
+ * When you would use it:removes whitespace from both sides of a string
  ***********************************************/
 // CODE HERE
+let yay ="   It's the last one finally!!!!    ";
+let trimYay = yay.trim();
+console.log(trimYay);

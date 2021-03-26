@@ -37,13 +37,28 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: to find out the type of cuisine I can have for lunch in Tsim Sha Tsui
  ***********************************************/
 // CODE HERE
+let tstFood = {
+  japanese:[
+    "rest A",
+    "rest B",
+    "rest C",
+  ],
+  thai:[
+    "rest D",
+    "rest E",
+    "rest F",
+  ],
+}
+
+console.log(Object.keys(tstFood));
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: to find out the options of restaurants I can have for lunch in Tsim Sha Tsui
  ***********************************************/
 // CODE HERE
+console.log(Object.values(tstFood));

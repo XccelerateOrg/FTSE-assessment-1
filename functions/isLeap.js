@@ -6,6 +6,10 @@
  * @return {boolean} whether n is divisible by k
  */
 // YOUR CODE HERE
+function isDivisibleBy(n,k){
+    return n%k==0;
+}
+
 
 /**
  * @description isLeap() should take a number, year, as the input,
@@ -20,7 +24,7 @@ input: 1900
 output: false 
 
 input: 2000
-output: false
+output: true
 
 input: 2020
 output: true
@@ -30,5 +34,19 @@ output: true
  */
 
 // YOUR CODE HERE
+
+function isLeap(year){
+    if(!isDivisibleBy(year,4)){
+        return false;
+    } else if (!isDivisibleBy(year,100)){
+        return true;
+        } else if (isDivisibleBy(year,4) && isDivisibleBy(year,100) && isDivisibleBy(year,400)){
+            return true;
+        } else {
+            return false;
+        }
+}
+
+
 
 module.exports = isLeap;
