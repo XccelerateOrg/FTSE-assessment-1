@@ -37,13 +37,47 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it:to find the object key
  ***********************************************/
 // CODE HERE
+
+let tst = {
+  malls: [
+    "Harbour City",
+    "K11",
+    "Sogo",
+    "Silvercord",
+    "The ONE",
+    "1881 Heritage",
+  ],
+  museums: [
+    "Hong Kong Space Museum",
+    "Hong Kong Museum of Art",
+    "Hong Kong Museum of History",
+  ],
+};
+console.log(Object.keys(tst))
+
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: values of museums
  ***********************************************/
 // CODE HERE
+let tst = {
+  malls: [
+    "Harbour City",
+    "K11",
+    "Sogo",
+    "Silvercord",
+    "The ONE",
+    "1881 Heritage",
+  ],
+  museums: [
+    "Hong Kong Space Museum",
+    "Hong Kong Museum of Art",
+    "Hong Kong Museum of History",
+  ],
+};
+console.log(Object.values(tst))

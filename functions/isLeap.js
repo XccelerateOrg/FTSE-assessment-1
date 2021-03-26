@@ -5,7 +5,15 @@
  * @param {number} k
  * @return {boolean} whether n is divisible by k
  */
-// YOUR CODE HERE
+
+function isDivisibleBy( n , k ) {
+    if ( n % k == 0 ) {
+        return true
+    } else {
+        return false
+    }
+}
+
 
 /**
  * @description isLeap() should take a number, year, as the input,
@@ -30,5 +38,11 @@ output: true
  */
 
 // YOUR CODE HERE
+
+function isLeap(number) {
+    return (number % 400 == 0) || ((number % 4 == 0) && (number % 100 != 0));
+}
+
+
 
 module.exports = isLeap;

@@ -8,7 +8,9 @@
  * @param {number} c
  * @return {boolean} whether the triangle is equilateral
  */
-// YOUR CODE HERE
+function isEquilateral(a, b, c) {
+  return (a == b && b == c);
+}
 
 /**
  * @description isIsosceles() should take 3 numbers as the input,
@@ -20,7 +22,13 @@
  * @param {number} c
  * @return {boolean} whether the triangle is isosceles
  */
-// YOUR CODE HERE
+
+function isIsosceles( a, b, c ) {
+  return ( (a == b) || (a == c) || (b == c));
+}
+
+
+
 /**
  * @description isScalene() should take 3 numbers as the input,
  * each input represents a side of the triangle
@@ -33,6 +41,11 @@
  */
 // YOUR CODE HERE
 
+function isScalene( a, b, c ) {
+  return ( (a != b) && (a != c) && (b != c));
+}
+
+
 /**
  * @description isRight() should take 3 numbers as the input,
  * each input represents a side of the triangle
@@ -44,6 +57,19 @@
  * @return {boolean} whether the triangle is right
  */
 // YOUR CODE HERE
+
+
+function isRight( a, b, c ) {
+    return (
+    ((a*a) + (b*b)) == (c*c) 
+    || 
+    ((a*a) + (c*c)) == (b*b)
+    || 
+    ((b*b) + (c*c)) == (a*a))
+}
+  
+
+
 
 module.exports = {
   isEquilateral,
