@@ -22,6 +22,7 @@ When you are asked to write a function, the specification of each function will 
 - git add .
 - git commit -m "finished"
 - git push --set-upstream origin nameDate
+- Copy the link they provide you
 - Go to github, and create pull request
 
 ## Important notes

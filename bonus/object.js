@@ -25,7 +25,6 @@ let tst = {
     "1881 Heritage",
   ],
   museums: [
-    "Hong Kong Space Museum",
     "Hong Kong Museum of Art",
     "Hong Kong Museum of History",
   ],
