@@ -37,13 +37,29 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: returns a given array and the property names in the order they were entered.
+ * To grab main categories.
  ***********************************************/
 // CODE HERE
+const person = {
+  name: 'Tom',
+  age: 40,
+  criminal: false
+};
+
+console.log(Object.keys(person));
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: returns a given array but only the values instead of the categories or property names.
+ * To grab values.
  ***********************************************/
 // CODE HERE
+const person2 = {
+  name: 'Jerry',
+  age: 25,
+  criminal: false
+};
+
+console.log(Object.values(person2));
