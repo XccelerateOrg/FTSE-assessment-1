@@ -37,13 +37,26 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: list out the keys in an array
  ***********************************************/
-// CODE HERE
+let object1 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+console.log(Object.keys(object1))
+
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: list out the values in an array
  ***********************************************/
-// CODE HERE
+ let object2 = {
+  a: 'somestring',
+  b: 42,
+  c: false
+};
+
+console.log(Object.values(object1))

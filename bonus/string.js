@@ -22,48 +22,63 @@ console.log(isItHongKong);
 /**********************************************
  * string.indexOf()
  * ==================================
- * When you would use it:
+ * When you would use it: check if the specific word is in the sentence
  ***********************************************/
-// CODE HERE
+let person = "I think Justin is cool"
+console.log(person.indexOf("Justin"))
 
 /**********************************************
  * string.toUpperCase()
  * ==================================
- * When you would use it:
+ * When you would use it: capitalize words
  ***********************************************/
-// CODE HERE
+let randomWords = " SDsad sd sads asd"
+console.log(randomWords.toUpperCase())
 
 /**********************************************
  * parseInt(string)
  * ==================================
- * When you would use it:
+ * When you would use it: to turn string to no.
  ***********************************************/
-// CODE HERE
+ let string1 = "100"
+ console.log(typeof(parseInt(string1)))// CODE HERE
 
 /**********************************************
  * number.toString()
  * ==================================
- * When you would use it:
+ * When you would use it: to turn no. to string
  ***********************************************/
-// CODE HERE
+let num = 100
+console.log(typeof(num.toString()))
+
 
 /**********************************************
  * string.charAt(index)
  * ==================================
- * When you would use it:
+ * When you would use it: Return the character of a string:
+
+
  ***********************************************/
-// CODE HERE
+console.log("Justin".charAt(0))
 
 /**********************************************
  * string.split("")
  * ==================================
- * When you would use it:
+ * When you would use it: To splite names into array
  ***********************************************/
-// CODE HERE
+let longNames = "Justin Jason Tom Peter"
+console.log(longNames.split(" "))
 
 /**********************************************
  * string.trim()
  * ==================================
- * When you would use it:
+ * When you would use it: moves whitespace from both ends of a string
  ***********************************************/
-// CODE HERE
+let nameIs = "     Justin Cheung  is       good     "
+console.log(nameIs.trim())
+
+
+
+
+
+
