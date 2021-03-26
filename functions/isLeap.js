@@ -29,6 +29,21 @@ output: true
  * @return {boolean} whether the year is leap
  */
 
-// YOUR CODE HERE
-
+function isLeap(n){
+    var result; 
+    if (n/400){
+      result = true
+    }
+    else if(n/100){
+      result = false
+    }
+    else if(n/4){
+      result= true
+    }
+    else{
+      result= false
+    }
+    return result
+}
+console.log(isLeap(2021));
 module.exports = isLeap;

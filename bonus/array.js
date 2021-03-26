@@ -24,46 +24,58 @@ console.log(teachers.includes(sam));
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers2 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ console.log(teachers2.slice(1, 2));
 
 /**********************************************
  * array.splice()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers3 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ teachers3.splice(1, 0, "D", "E");
+ console.log(teachers3);
 
 /**********************************************
  * array.indexOf()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers4 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ console.log(teachers4.indexOf("lesley@x.co"));
 
 /**********************************************
  * array.sort()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers5 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ console.log(teachers4.sort());
 
 /**********************************************
  * array.concat()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers6 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ let teachers6a = ["D", "E"];
+ let result = teachers6.concat(teachers6a);
+ console.log(result);
 
 /**********************************************
  * array.unshift()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers7 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ teachers7.unshift("A", "B");
+ console.log(teachers7);
 
 /**********************************************
  * array.shift()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let teachers8 = ["sam@x.co", "bibek@x.co", "lesley@x.co"];
+ teachers8.shift();
+ console.log(teachers8);

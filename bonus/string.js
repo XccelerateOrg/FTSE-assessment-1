@@ -24,46 +24,53 @@ console.log(isItHongKong);
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string2 = "+85292343234";
+ console.log(string2.indexOf(9));
 
 /**********************************************
  * string.toUpperCase()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string3 = "hongkong";
+ console.log(string3.toUpperCase());
 
 /**********************************************
  * parseInt(string)
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string4 = "+85292343234";
+ console.log(parseInt(string4));
 
 /**********************************************
  * number.toString()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string5 = 85292343234;
+ console.log(string5.toString());
 
 /**********************************************
  * string.charAt(index)
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string6 = "hongkong";
+ console.log(string6.charAt(0));
 
 /**********************************************
  * string.split("")
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string7 = "hongkong";
+ console.log(string7.split("k"));
 
 /**********************************************
  * string.trim()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ let string8 = "          hongkong            ";
+ console.log(string8.trim());

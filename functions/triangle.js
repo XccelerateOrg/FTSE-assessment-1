@@ -8,7 +8,17 @@
  * @param {number} c
  * @return {boolean} whether the triangle is equilateral
  */
-// YOUR CODE HERE
+
+function isEquilateral(a, b, c){
+  var result;
+  if (a == b && b == c){
+    result = true
+  }else{
+    result = false
+  }
+  return result
+}
+console.log(isEquilateral(100, 100, 100))
 
 /**
  * @description isIsosceles() should take 3 numbers as the input,
@@ -20,7 +30,18 @@
  * @param {number} c
  * @return {boolean} whether the triangle is isosceles
  */
-// YOUR CODE HERE
+
+ function isIsosceles(a, b, c){
+  var result;
+  if (a == b || b == c || a == c){
+    result = true
+  }else{
+    result = false
+  }
+  return result
+}
+console.log(isIsosceles(100, 100, 50))
+
 /**
  * @description isScalene() should take 3 numbers as the input,
  * each input represents a side of the triangle
@@ -31,7 +52,17 @@
  * @param {number} c
  * @return {boolean} whether the triangle is scalene
  */
-// YOUR CODE HERE
+
+ function isScalene(a, b, c){
+  var result;
+  if (a !== b || b !== c || a !== c){
+    result = true
+  }else{
+    result = false
+  }
+  return result
+}
+console.log(isScalene(100, 75, 50))
 
 /**
  * @description isRight() should take 3 numbers as the input,
@@ -43,7 +74,17 @@
  * @param {number} c
  * @return {boolean} whether the triangle is right
  */
-// YOUR CODE HERE
+
+ function isRight(a, b, c){
+  var result;
+  if ((Math.pow(a, 2) + Math.pow(b, 2)) == Math.pow(c, 2) || (Math.pow(b, 2) + Math.pow(c, 2)) == Math.pow(a, 2) || (Math.pow(c, 2) + Math.pow(a, 2)) == Math.pow(b, 2)){
+    result = true
+  }else{
+    result = false
+  }
+  return result
+}
+console.log(isRight(9, 12, 15))
 
 module.exports = {
   isEquilateral,

@@ -39,11 +39,11 @@ console.log(allEntries);
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ console.log(Object.keys(tst));
 
 /**********************************************
  * object.values()
  * ==================================
  * When you would use it:
  ***********************************************/
-// CODE HERE
+ console.log(Object.values(tst));
