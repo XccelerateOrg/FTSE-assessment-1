@@ -25,6 +25,11 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+let Resident_teachers = ["teacherA","teacherB","sam","bibek","lesley"];
+let false_Resident_teachers = Resident_teachers.slice(0,2);
+let real_Resident_teachers = Resident_teachers.slice(2);
+console.log(false_Resident_teachers);
+console.log(real_Resident_teachers);
 
 /**********************************************
  * array.splice()
@@ -32,6 +37,18 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+let Resident_teachers_a = ["sam","bibek","lesley"];
+let lady;
+let man;
+Resident_teachers.splice(2,0,"Rachel");
+console.log(Resident_teachers_a);
+
+man = Resident_teachers_a.splice(0,2);
+console.log(man);
+lady = Resident_teachers_a
+console.log(lady);
+
+
 
 /**********************************************
  * array.indexOf()
@@ -39,6 +56,13 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+const Resident_teachers_b = ["sam","bibek","lesley"];
+
+console.log(Resident_teachers_b.indexOf('sam'));
+console.log(Resident_teachers_b.indexOf('a'));
+
+
+
 
 /**********************************************
  * array.sort()
@@ -46,6 +70,11 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+const Resident_teachers_c = ["sam","bibek","lesley"];
+const array1 = [1,1990,2, 22];
+
+console.log(Resident_teachers_c.sort());
+console.log(array1.sort());
 
 /**********************************************
  * array.concat()
@@ -53,6 +82,12 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+const Resident_teachers_d = ["sam","bibek","lesley"];
+const B_teachers = ["Rachel"];
+const All_teachers = Resident_teachers_d.concat(B_teachers);
+
+console.log(All_teachers)
+
 
 /**********************************************
  * array.unshift()
@@ -60,6 +95,12 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+const Resident_teachers_e = ["sam","bibek","lesley"];
+
+console.log(Resident_teachers_e.unshift("Rachel"));  // result of the call is 4, which is the new array length
+console.log(Resident_teachers_e)
+
+
 
 /**********************************************
  * array.shift()
@@ -67,3 +108,12 @@ console.log(teachers.includes(sam));
  * When you would use it:
  ***********************************************/
 // CODE HERE
+let Resident_teachers_f = ["teacherA","teacherB","sam","bibek","lesley"];
+let True_Resident_teachers_f ;
+console.log(Resident_teachers_f);
+Resident_teachers_f.shift();
+Resident_teachers_f.shift();
+True_Resident_teachers_f = Resident_teachers_f;
+console.log(True_Resident_teachers_f);
+
+

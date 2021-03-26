@@ -40,6 +40,25 @@ console.log(allEntries);
  * When you would use it:
  ***********************************************/
 // CODE HERE
+let food = {
+  vegetable: [
+    "carrot",
+    "Okra",
+    "Potatoes",
+    "Celeriac",
+    "Cabbages",
+    "Broccoli",
+  ],
+  meat: [
+    "pork",
+    "Lamb",
+    "beef",
+  ],
+};
+
+let allfood = Object.keys(food);
+console.log(allfood);
+
 
 /**********************************************
  * object.values()
@@ -47,3 +66,21 @@ console.log(allEntries);
  * When you would use it:
  ***********************************************/
 // CODE HERE
+let food_a = {
+  vegetable: [
+    "carrot",
+    "Okra",
+    "Potatoes",
+    "Celeriac",
+    "Cabbages",
+    "Broccoli",
+  ],
+  meat: [
+    "pork",
+    "Lamb",
+    "beef",
+  ],
+};
+
+let allfood_a = Object.values(food_a);
+console.log(allfood_a);

@@ -29,8 +29,17 @@ function submission() {
     // put your answers here in strings, separated by comma
     // the first answer is provided as an example
       "number",
-      
-    // YOUR CODE HERE
+      "string",
+      "object",
+      "string",
+      "string",
+      "number",   //but I think it may be not "number" because typeof(+"run")  also equal to "number"
+      //I google and think so:
+      //I have find "number" include NaN(stand for"not a number"),so if the values in the form of expression, it is treated as a number, but it cannot actually perform any arithmetic operations
+      "boolean",
+      "boolean",
+      "number",
+      "string",
   ];
 
   return answers;
