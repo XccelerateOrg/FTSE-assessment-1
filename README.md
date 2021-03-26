@@ -10,6 +10,9 @@ When you are asked to write a function, the specification of each function will 
 - `cd [name-of-your-repo]`
 - Open the repo with VSCode
 - Find question specific instructions in each question folder
+- cd into that folder (e.g., cd functions)
+- Install the needed packages: npm install
+- Test the folder: npm test (the only folder that doesn't have a test is the bonus folder)
 - Make changes to `answer.js`(default, if not specified by the question) or files in `answers/` folder in each question
 - Commit changes to `master` branch. Other branches won't be graded
 
