@@ -37,13 +37,17 @@ console.log(allEntries);
 /**********************************************
  * object.keys()
  * ==================================
- * When you would use it:
+ * When you would use it: to see all of the keys of an object, for example, we have not used the object 'tst' before and want to see what keys it stores, we can output all keys to an array
  ***********************************************/
 // CODE HERE
+let keys = Object.keys(tst);
+console.log(keys); // [ 'malls', 'museums' ]
 
 /**********************************************
  * object.values()
  * ==================================
- * When you would use it:
+ * When you would use it: to see all the values stored in an object, in this example, all the major landmarks in TST
  ***********************************************/
 // CODE HERE
+let values = Object.values(tst);
+console.log(values);

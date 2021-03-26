@@ -7,6 +7,13 @@
  */
 // YOUR CODE HERE
 
+function isDivisibleBy(n, k) {
+    if (n % k === 0) {
+        return true;
+    }
+    return false;
+}
+
 /**
  * @description isLeap() should take a number, year, as the input,
  * and return true if that year is a leap year, and false otherwise.
@@ -30,5 +37,18 @@ output: true
  */
 
 // YOUR CODE HERE
+
+function isLeap(year) {
+    if (year % 4 === 0) {
+        if (year % 100 === 0) {
+            if (year % 400 === 0) {
+                return true;
+            }
+            return false;
+        }
+        return true;
+    }
+    return false;
+}
 
 module.exports = isLeap;
