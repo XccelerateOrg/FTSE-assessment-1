@@ -28,8 +28,9 @@ function submission() {
   const answers = [
     // put your answers here in strings, separated by comma
     // the first answer is provided as an example
-      "number",
-      
+    "number",
+    "string",
+
     // YOUR CODE HERE
   ];
 
