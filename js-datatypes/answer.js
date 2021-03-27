@@ -30,6 +30,7 @@ function submission() {
     // the first answer is provided as an example
     "number",
     "string",
+    "another",
 
     // YOUR CODE HERE
   ];
