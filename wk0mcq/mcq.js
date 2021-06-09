@@ -20,8 +20,7 @@ const _2A =
   "Hidden files, together with all other files in the directory, would be displayed";
 const _2B =
   "Files would be shown according to the alphabetical order of their names";
-const _2C =
-  "All the file properties, including file type, size and permission";
+const _2C = "All the file properties, including file type, size and permission";
 const _2D = "All of the Above";
 
 // YOUR CODE HERE
@@ -47,14 +46,10 @@ const yourChoice3 = FILL_ME_IN;
  * How to ask an <a> tag to open the hyperlink in a new browser tab?
  */
 
-const _4A =
-  'Assign the target="_blank" attribute to the a tag.';
-const _4B =
-  'Assign the target="_parent" attribute to the a tag';
-const _4C =
-  'Assign the target="_self" attribute to the a tag';
-const _4D =
-  'Assign the target="_newWindow" attribute to the a tag';
+const _4A = 'Assign the target="_blank" attribute to the a tag.';
+const _4B = 'Assign the target="_parent" attribute to the a tag';
+const _4C = 'Assign the target="_self" attribute to the a tag';
+const _4D = 'Assign the target="_newWindow" attribute to the a tag';
 
 // YOUR CODE HERE
 // SOLUTION STARTS
@@ -86,7 +81,7 @@ const _6A =
 const _6B =
   "Inline styles written inside an HTML element would always be applied on top of other styles, if no additional flags are used";
 const _6C =
-  'If an "!important" keyword is added after a property value in a CSS document, it would never be overwritten';
+  'If an "!important" keyword has been added to an HTML element that is styled with inline-styling, its style would never be overwritten';
 const _6D = "All of the above";
 
 // YOUR CODE HERE
@@ -113,8 +108,7 @@ const yourChoice7 = FILL_ME_IN;
  */
 
 const _8A = "Google the answer.";
-const _8B =
-  "Ask my peers - they probably are stuck on a similar problem.";
+const _8B = "Ask my peers - they probably are stuck on a similar problem.";
 const _8C =
   "Create a hypothesis, plan and try to debug; that's the only way that I'll get better.";
 const _8D = "All of the above";
@@ -130,8 +124,7 @@ const yourChoice8 = FILL_ME_IN;
 
 const _9A = "Specifying the name of the image";
 const _9B = "Specifying the file path of the image";
-const _9C =
-  "Specifying the text description placing below the image";
+const _9C = "Specifying the text description placing below the image";
 const _9D =
   "Specifying the text description of the image when the image fails to load";
 

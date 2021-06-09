@@ -20,7 +20,7 @@ input: 1900
 output: false 
 
 input: 2000
-output: false
+output: true
 
 input: 2020
 output: true
