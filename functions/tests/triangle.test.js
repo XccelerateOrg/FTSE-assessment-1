@@ -13,8 +13,10 @@ describe("Triangle", function () {
     expect(isEquilateral(5, 4, 3)).toBe(false);
   });
   test("isIsosceles()", () => {
-    expect(isIsosceles(3, 3, 3)).toBe(true);
-    expect(isIsosceles(2, 3, 3)).toBe(true);
+    expect(isIsosceles(2, 2, 3)).toBe(true);
+    expect(isIsosceles(3, 2, 2)).toBe(true);
+    expect(isIsosceles(2, 3, 2)).toBe(true);
+    expect(isIsosceles(3, 3, 3)).toBe(false);
     expect(isIsosceles(1, 2, 3)).toBe(false);
     expect(isIsosceles(5, 4, 3)).toBe(false);
   });

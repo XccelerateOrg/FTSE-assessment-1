@@ -14,7 +14,7 @@
  * @description isIsosceles() should take 3 numbers as the input,
  * each input represents a side of the triangle
  * it returns true if the triangle an isosceles triangle
- * A triangle is isosceles if the length at least two sides are equal
+ * A triangle is isosceles if the length of two sides are equal
  * @param {number} a
  * @param {number} b
  * @param {number} c
